@@ -1113,7 +1113,7 @@ a.back-to-top {
 	width: 42px;
 	height: 42px;
 	border-radius: 30px;
-	background: #3a424d url("../images/up-arrow.png") no-repeat center 47%;
+	background: #ff4e8e url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 18px 18px;
 	text-indent: -9999px;
 }
@@ -1836,3 +1836,106 @@ width: 40rem;
 		   text-decoration: none;
        
 		 }
+
+		 .about-img{
+			height: 768px;
+			background:url('../images/bgimg/bg3.jpg') center center no-repeat;
+			background-size:     cover;                      /* <------ */
+			background-repeat:   no-repeat;
+			background-position: center center;
+			text-align: center;
+			width: 100%; 
+		 }
+		 .about-title{
+width: 20rem;
+padding: 3rem 3rem 1rem 3rem;
+		 }
+		 .about-img p{
+			line-height: 2rem;
+			font-size: 1.2rem;
+			padding: 0rem 3rem;
+			color: white;
+		 }
+		 .abouts{
+			 padding: 5rem 3rem 3rem 3rem;
+		 } .about-img span{
+  color:#FF4E8E;
+  font-weight: 800;
+		 }.Specification{
+			height: 768px;
+			background:url('../images/bgimg/bg4.jpg') center center no-repeat;
+			background-size:     cover;                      /* <------ */
+			background-repeat:   no-repeat;
+			background-position: center center;
+			text-align: center;
+			width: 100%; 
+		 }
+		 .Specification h3 {
+			 text-align: center;
+		 }
+		 .Specification .container-fluid{
+			padding: 3rem;
+		 }
+		 .Specification h3 img{
+			width: 30rem;
+			
+		 } .Specification .row{
+			 padding-top:6rem;
+		 }	 .Specification .row img{
+
+		width: 12rem;
+		 }
+		 .Specification p{
+			color:#FF4E8E;
+			font-weight: 800;
+           letter-spacing: 0.5rem;
+		   padding: 1rem 0rem;
+		}
+		.noname{
+			height: 768px;
+			background:url('../images/bgimg/bg5.jpg') center center no-repeat;
+			background-size:     cover;                      /* <------ */
+			background-repeat:   no-repeat;
+			background-position: center center;
+			text-align: center;
+			width: 100%; 
+		}
+		.noname .container-fluid{
+			padding: 3rem;
+		 }
+		 .noname p{
+			line-height: 2rem;
+			font-size: 1.2rem;
+			padding: 0rem 3rem;
+			color: white;
+		 }
+		 .noname span{
+			color:#FF4E8E;
+			font-weight: 800;
+				   }
+				   .noname img{
+					width: 80%;
+				   }
+				   .noname .row{
+					align-items: center;
+				   }.sexy{
+					   text-align: center;
+					background:#1e0118;
+				   }
+				   .sexy h3 img{
+					width: 60rem;
+				   }
+				   .sexy p{
+					line-height: 2rem;
+					font-size: .8rem;
+					padding: 0rem 3rem;
+					color: white; 
+				   }
+				   .sexy p span{
+					color:#FF4E8E;
+					font-weight: 800;  
+				   }   
+				   .sexy .container{
+					background-image: linear-gradient(180deg,#250220 25%, #B30472);
+					padding: 3rem 0rem;
+				   }
