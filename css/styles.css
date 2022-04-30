@@ -573,8 +573,9 @@ input[type='checkbox'] {
 /*    Header     */
 /*****************/
 .header {
-	padding-top: 7rem;
-	background:url('../images/bgimg/bg1.jpg') center center no-repeat;
+	padding-top: 7re
+            overflow: hidden;
+            background:url('../images/bgimg/bg1.jpg') center center no-repeat;
 	background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
@@ -1770,8 +1771,9 @@ opacity: .8;
 	text-decoration: none;
 }
 .form-home{
-	height: 768px;
-	background:url('../images/bgimg/bg2.png') center center no-repeat;
+	height: 768p
+            overflow: hidden;
+            background:url('../images/bgimg/bg2.png') center center no-repeat;
 	background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
@@ -1839,7 +1841,8 @@ opacity: .8;
 
 		 .about-img{
 			height: 768px;
-			background:url('../images/bgimg/bg3.jpg') center center no-repeat;
+            overflow: hidden;
+            background:url('../images/bgimg/bg3.jpg') center center no-repeat;
 			background-size:     cover;                      /* <------ */
 			background-repeat:   no-repeat;
 			background-position: center center;
@@ -1863,7 +1866,8 @@ padding: 3rem 3rem 1rem 3rem;
   font-weight: 800;
 		 }.Specification{
 			height: 768px;
-			background:url('../images/bgimg/bg4.jpg') center center no-repeat;
+            overflow: hidden;
+            background:url('../images/bgimg/bg4.jpg') center center no-repeat;
 			background-size:     cover;                      /* <------ */
 			background-repeat:   no-repeat;
 			background-position: center center;
@@ -1893,7 +1897,8 @@ padding: 3rem 3rem 1rem 3rem;
 		}
 		.noname{
 			height: 768px;
-			background:url('../images/bgimg/bg5.jpg') center center no-repeat;
+            overflow: hidden;
+            background:url('../images/bgimg/bg5.jpg') center center no-repeat;
 			background-size:     cover;                      /* <------ */
 			background-repeat:   no-repeat;
 			background-position: center center;
@@ -2143,7 +2148,8 @@ width: fit-content !important;
 }
 .footer{padding: 2rem 0rem;
 	text-align: center;
-	background-image: linear-gradient(219deg,#470434, #470434 165%);
+	background-image: linear-gradient(11deg,#7B18AB -14%, #470434 38%);
+
 }
 
 .footer h3 img{
@@ -2156,4 +2162,12 @@ width: fit-content !important;
 .footer .col{
 	padding: .5rem;
 max-width: fit-content;
+}
+
+@media (max-width:1139px) {
+	.btn-home {
+		margin-top: 3rem;
+	}
+.btn-PAPER {
+    margin-bottom: 2rem;}
 }
