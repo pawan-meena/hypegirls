@@ -2361,6 +2361,19 @@ max-width: fit-content;
 html {overflow-x: hidden;}
 }
 @media only screen and (max-width:400px) {
+
+	.abouts {
+		width: 100%;
+		padding: 5rem 0rem 3rem 0rem;
+	}.Specification .row img {
+		width: 100%;
+		max-width: 100%;
+	}.noname img {
+		width: 100%;
+	}.team img {
+		width: 100%;
+		max-width: 100%;
+	}
 .rd {
     text-align: center;
     padding: 0rem;}
