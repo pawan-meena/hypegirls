@@ -36,7 +36,7 @@ Colors:
 /*     General Styles     */
 /**************************/
 body,
-html {
+html {overflow-x: hidden;
     width: 100%;
 	height: 100%;
 }
@@ -2289,7 +2289,11 @@ max-width: fit-content;
 		margin-top: 3rem;
 	}
 
-}.pinwheel {
+}
+
+
+
+.pinwheel {
 	--uib-size: 4rem;
 	--uib-speed: 1s;
 	--uib-color: white;
@@ -2348,4 +2352,13 @@ max-width: fit-content;
 	  transform: rotate(180deg);
 	}
   }
+
+
+  @media only screen and (max-width:768px) {
+	.img-home-div {
+		padding-top: 8rem;}
+		body,
+html {overflow-x: hidden;}
+}
+
   
