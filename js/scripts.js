@@ -1,5 +1,8 @@
 /* Description: Custom JS file */
 
+$(document).ready(function () {
+    document.getElementById("preloading").style.display="none";
+});
 
 (function($) {
     "use strict"; 

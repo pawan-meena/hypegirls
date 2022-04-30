@@ -2174,9 +2174,9 @@ max-width: fit-content;
 .btn-PAPER {
     margin-bottom: 2rem;}
 }.pinwheel {
-	--uib-size: 35px;
+	--uib-size: 4rem;
 	--uib-speed: 1s;
-	--uib-color: black;
+	--uib-color: white;
 	--uib-line-weight: 3.5px;
   
 	position: relative;
