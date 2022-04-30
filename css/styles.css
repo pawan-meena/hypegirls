@@ -1721,10 +1721,10 @@ width: 40rem;
     color: #F8F1F6;
 }
 .right-img{
-
+opacity: .8;
 }
 .left-img{
-	
+	opacity: .8;
 }
 .rlimg{
 	flex-direction: row;
