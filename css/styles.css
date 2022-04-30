@@ -2360,5 +2360,21 @@ max-width: fit-content;
 		body,
 html {overflow-x: hidden;}
 }
-
-  
+@media only screen and (max-width:400px) {
+.rd {
+    text-align: center;
+    padding: 0rem;}
+	.silicon .row p,.noname p,.about-img p {
+		line-height: 1.5rem;
+		font-size: .8rem;
+		padding: 0rem 1rem;
+		color: white;
+	}
+	.noname .container-fluid {
+		 padding: 0rem; 
+	}
+	.silicon {
+		
+		padding: 0rem;
+	}
+}
