@@ -1985,11 +1985,10 @@ width: 30rem;
 				.rd h4{
 					color:white;
 				}
-				.team{
+				.team{	background-image: linear-gradient(180deg,#26000E 25%, #9A20EB);
 					text-align: center;
 					padding: 3rem;
-					
-					background: #1e0118;
+				
 				}
 				.team h3 img{
 					width: 20rem;
@@ -2014,4 +2013,147 @@ width: 30rem;
 						font-size: 1.4rem;
 					}.team img{
 						width: 14rem;
+					}.silicon{		background-image: linear-gradient(219deg,#26000e, #9a20ebed 165%);
+						text-align: center;
+						
+						padding: 3rem;
+					}.silicon h3 img{
+						width:40rem;
+					}.silicon .row img{
+						width:30rem;
+					}.silicon .row p{
+						line-height: 2rem;
+					font-size: 1.2rem;
+				   text-align: left;
+					color: white; 
 					}
+					.silicon .row {    justify-content: center;
+						align-items: center;
+					}.btn-play{
+						padding: 1.2rem;
+						width: 30rem;
+						font-size: 1.5rem;
+						font-weight: bold;
+					}
+					.btn-play img{
+					 color:#6F0B2F;
+					 width: 2.2rem;
+
+					}
+					.faq{background: #350529;
+						text-align: center;
+						padding: 3rem;
+					}
+					.faq h3 img{
+						width:35rem;
+					}
+
+.faq .row{
+	justify-content: center;
+}
+
+
+
+.faq .col-8{
+width: fit-content !important;
+}
+				
+.faq {
+  padding: 60px 0;
+}
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+.faq .faq-list li {
+	background-color: #6c0753;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.6rem 2.5rem;
+	border: solid #ffadce 0.1rem;
+	text-align: left;
+}
+.faq .faq-list a {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.faq .faq-list i {
+  font-size: 16px;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+  transition: 1s;
+}
+.faq-title {
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px dashed #ffffff;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.faq .faq-list p {
+  padding-top: 5px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.collapsed i.fas.fa-arrow-up {
+    
+}
+.collapsed i.fas.fa-arrow-up {
+    transform: rotate(180deg);
+}
+
+.faq p{
+	color :white;
+}
+
+.join .container{
+	background-image: linear-gradient(219deg,#A321C9, #E22F9E 165%);
+	border-radius: 3rem;
+	padding:	4rem 0rem 0rem 0rem
+	;
+}
+.join .row{
+	margin-top: -9rem;
+	align-items: center;
+	align-items: center;
+}
+.join h3 img{
+
+}
+.join .row img{
+
+}
+.btn-end{
+
+    margin-top: 7rem;
+
+	padding: 3rem;width: 90%;
+    padding: 1.5rem;
+    font-size: .8rem;
+	border-radius: 0.2rem;
+}
+.footer{padding: 2rem 0rem;
+	text-align: center;
+	background-image: linear-gradient(219deg,#470434, #470434 165%);
+}
+
+.footer h3 img{
+	width: 10rem;
+}
+.footer .row{
+	align-items: center;
+    justify-content: center;
+}
+.footer .col{
+	padding: .5rem;
+max-width: fit-content;
+}
