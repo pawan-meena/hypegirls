@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 116" style="enable-background:new 0 0 100 116;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:5;stroke-linecap:square;}
+	.st1{fill:none;stroke:url(#SVGID_2_);stroke-width:5;stroke-linecap:square;stroke-opacity:0.8;}
+	.st2{fill:none;stroke:url(#SVGID_3_);stroke-width:5;stroke-linecap:square;stroke-opacity:0.6;}
+	.st3{fill:none;stroke:url(#SVGID_4_);stroke-width:5;stroke-linecap:square;stroke-opacity:0.3;}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="51.0002" y1="66.4778" x2="51.0002" y2="40.457" gradientTransform="matrix(1 0 0 -1 0 146)">
+		<stop  offset="0" style="stop-color:#FFD2F3"/>
+		<stop  offset="0.5312" style="stop-color:#FD93FF"/>
+		<stop  offset="1" style="stop-color:#FF45B5"/>
+	</linearGradient>
+	<path class="st0" d="M14,81.4l37,24.2l37-24.2"/>
+</g>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="6.5001" y1="79.1054" x2="92.3203" y2="78.6029" gradientTransform="matrix(1 0 0 -1 0 146)">
+	<stop  offset="0" style="stop-color:#FFD2F3"/>
+	<stop  offset="0.5312" style="stop-color:#FD93FF"/>
+	<stop  offset="1" style="stop-color:#FF45B5"/>
+</linearGradient>
+<path class="st1" d="M14,55.4l37,24.2l37-24.2"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="6.5001" y1="105.0634" x2="92.3203" y2="104.5609" gradientTransform="matrix(1 0 0 -1 0 146)">
+	<stop  offset="0" style="stop-color:#FFD2F3"/>
+	<stop  offset="0.5312" style="stop-color:#FD93FF"/>
+	<stop  offset="1" style="stop-color:#FF45B5"/>
+</linearGradient>
+<path class="st2" d="M14,29.5l37,24.2l37-24.2"/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="6.5001" y1="131.0214" x2="92.3203" y2="130.5189" gradientTransform="matrix(1 0 0 -1 0 146)">
+	<stop  offset="0" style="stop-color:#FFD2F3"/>
+	<stop  offset="0.5312" style="stop-color:#FD93FF"/>
+	<stop  offset="1" style="stop-color:#FF45B5"/>
+</linearGradient>
+<path class="st3" d="M14,3.5l37,24.2L88,3.5"/>
+</svg>

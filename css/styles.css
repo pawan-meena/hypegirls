@@ -1938,4 +1938,80 @@ padding: 3rem 3rem 1rem 3rem;
 				   .sexy .container{
 					background-image: linear-gradient(180deg,#250220 25%, #B30472);
 					padding: 3rem 0rem;
+				   }.slide img{
+					   width:100%;;
+				   }.slide{
+					   background: none;
+					   width: 20rem;
+				   }.rd{
+					   text-align: center;
+					   padding: 3rem;
+					   background: #1e0118;
 				   }
+				   .rd h3 img{
+width: 30rem;
+				   }
+				   .rd h5{
+					   color:white;
+					   font-family: 'Open Sans';
+					   font-size: 0.8rem;
+    font-weight: normal;
+    color: white;
+				   }.rd p{	   color:white;   font-size: 0.8rem;
+
+				   }.rd span{
+					color:#FF4E8E;
+					font-weight: 800; 
+				   }
+				   .rdm{
+					   width:20rem;
+				   }
+				   .rdmn{
+				width: 10rem;
+				}
+				
+				.rd .col-5 p,	 .colhm{
+					text-align: left;	color:white;
+				}.colrdm{
+					text-align:center ;
+				}
+				.rd .row{
+					align-items: center;
+					justify-content: center;
+				}
+				.aro{
+					width:10rem;
+				}
+				.rd h4{
+					color:white;
+				}
+				.team{
+					text-align: center;
+					padding: 3rem;
+					
+					background: #1e0118;
+				}
+				.team h3 img{
+					width: 20rem;
+				}	
+				.team p{
+				color:white;
+				font-size: 0.8rem;
+				}.team span{
+					color:#FF4E8E;
+					font-weight: 800;
+					}.rdp{
+						text-align:left;padding-left:2rem;
+					}
+					.rdp span{
+						font-weight: 800;
+					}
+					.team p{
+						color: white !important;
+						font-size: .8rem;
+					}.team .row h4{
+						color: white;
+						font-size: 1.4rem;
+					}.team img{
+						width: 14rem;
+					}
