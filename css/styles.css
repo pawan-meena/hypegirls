@@ -488,7 +488,7 @@ input[type='checkbox'] {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #ff67b3;
+	color: #ff67b3;    border-bottom: solid #ff67b3 2px;
 }
 
 /* Dropdown Menu */
