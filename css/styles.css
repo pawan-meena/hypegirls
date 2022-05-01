@@ -477,9 +477,9 @@ input[type='checkbox'] {
 	margin-bottom: 0.5rem;
 }
 
-.navbar .nav-item .nav-link {
-	padding-top: 0.625rem;
-	padding-bottom: 0.625rem;
+.navbar .nav-item .nav-link {    
+
+	padding: .4rem;
 	color: #eeeeee;
 	text-decoration: none;
 	transition: all 0.2s ease;
@@ -1286,8 +1286,8 @@ a:hover.back-to-top {
 	}
 	
 	.navbar .nav-item .nav-link {
-		margin-right: 0.625rem;
-		margin-left: 0.625rem;
+		margin-right: 0.2rem;
+		margin-left: 0.2rem;
 	}
 
 	.navbar .dropdown-menu {
@@ -1960,7 +1960,7 @@ padding: 3rem 3rem 1rem 3rem;
 					   padding: 3rem;
 					   background: #1e0118;
 				   }
-				   .rd h3 img{
+				   .rd h3 img{    padding: 1rem;
 width: 30rem;max-width: 100%;
 				   }
 				   .rd h5{
