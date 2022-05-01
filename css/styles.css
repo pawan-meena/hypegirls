@@ -389,7 +389,8 @@ input[type='checkbox'] {
 /**********************/
 /*     Navigation     */
 /**********************/
-.navbar {    width: 100% !important;
+.navbar {   overflow-x: hidden;
+	 width: 100% !important;
 	background-color: #6c015f9c;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
@@ -1652,7 +1653,7 @@ nav ul{
 	background: none;
     font-weight: 600;
     font-size: 0.875rem;
-    line-height: 0;
+    line-height: 1.5rem;
     text-decoration: none;
     transition: all 0.2s;
 }
@@ -2403,8 +2404,9 @@ font-weight: 900;}
     position: absolute;
 }
 .svg-about{
+	overflow-x: hidden  !important;
 	text-align: center;
-    width: 100%;
+    width:fit-content;
     position: absolute;
     padding-top: 2%;
 }
