@@ -1249,7 +1249,7 @@ a:hover.back-to-top {
 
 	/* Navigation */
 	.navbar {
-		padding-top: 1.75rem;
+		padding-top:0rem;
 		background-color: transparent;
 		box-shadow: none;
 		transition: all 0.2s;
@@ -1286,8 +1286,8 @@ a:hover.back-to-top {
 	}
 	
 	.navbar .nav-item .nav-link {
-		padding-right: 0.625rem;
-		padding-left: 0.625rem;
+		margin-right: 0.625rem;
+		margin-left: 0.625rem;
 	}
 
 	.navbar .dropdown-menu {
