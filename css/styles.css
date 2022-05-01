@@ -2153,6 +2153,16 @@ max-width: fit-content;
 
 
 @media only screen and (max-width: 958px) {
+	.navbar .fa-stack {
+		margin: 0.8rem;
+		width: 2em;
+		margin-right: 0.25rem;
+		font-size: 0.75rem;
+	}
+	
+	
+	.navbar .nav-item .nav-link {
+    margin: 0.8rem;}
 	.offcanvas-collapse.open {    width: 65%;margin-top: -3.3rem;}
 	.slider-container {
 		display: block;
