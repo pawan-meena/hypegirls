@@ -2415,6 +2415,9 @@ input::-webkit-inner-spin-button {
 } .counter--output{font-size: 1.1rem;
 font-family: 'Open Sans';
 font-weight: 900;}
+.counter--outpute{font-size: 1.1rem;
+	font-family: 'Open Sans';
+	font-weight: 900;}
 .raised-text{
 	position: absolute;
 	bottom: 20px;

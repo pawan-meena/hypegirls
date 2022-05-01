@@ -312,7 +312,7 @@
                 <form id="contactForm">
                     <div class="form-group counter">
                         <label class=" h5 text-white text-left w-100" for="cname">MINT</label>
-                        <input type="number" class="form-control-input counter--output" id="cname" min="0" max="90" step="1000"  required>
+                        <input type="number" class="form-control-input counter--output" id="cname"   readonly>
                        
                          
                         <button type="button" class="counter--arrow-inc arrow-btn"><span><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -329,7 +329,7 @@
                     <div class="form-group">
                         <div class="form-group counter">
                             <label class=" h5 text-white text-left w-100" for="RAISED">TOTAL RAISED</label>
-                            <input type="number" class="form-control-input counter--output" id="RAISED" min="0" max="90" step="1000"  readonly>
+                            <input type="text" class="form-control-input counter--outpute text-right pr-3" id="RAISED"  value="0.08 ETH "  readonly>
                            
                             <button type="button" class="arrow-btn raised-eth"><span>
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -344,12 +344,7 @@
                                     
                                 </span></button> 
                            
-                            <button type="button" class="arrow-btn raised-text"><span>
-                                <svg width="98" height="18" viewBox="0 0 98 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.01766 17.24C5.76966 17.24 4.62566 16.888 3.58566 16.184C2.56166 15.48 1.74566 14.488 1.13766 13.208C0.529656 11.912 0.225656 10.392 0.225656 8.648C0.225656 6.904 0.521656 5.392 1.11366 4.112C1.72166 2.832 2.53766 1.848 3.56166 1.16C4.58566 0.455999 5.71366 0.103999 6.94566 0.103999C8.20966 0.103999 9.35366 0.455999 10.3777 1.16C11.4017 1.848 12.2097 2.832 12.8017 4.112C13.4097 5.392 13.7137 6.912 13.7137 8.672C13.7137 10.416 13.4097 11.936 12.8017 13.232C12.2097 14.512 11.4017 15.504 10.3777 16.208C9.36966 16.896 8.24966 17.24 7.01766 17.24ZM6.96966 15.104C7.84966 15.104 8.61766 14.864 9.27366 14.384C9.94566 13.888 10.4737 13.16 10.8577 12.2C11.2417 11.24 11.4337 10.056 11.4337 8.648C11.4337 7.24 11.2417 6.064 10.8577 5.12C10.4737 4.16 9.94566 3.44 9.27366 2.96C8.60166 2.464 7.82566 2.216 6.94566 2.216C6.08166 2.216 5.31366 2.464 4.64166 2.96C3.96966 3.44 3.44166 4.16 3.05766 5.12C2.68966 6.064 2.50566 7.24 2.50566 8.648C2.50566 10.056 2.68966 11.24 3.05766 12.2C3.44166 13.16 3.96966 13.888 4.64166 14.384C5.31366 14.864 6.08966 15.104 6.96966 15.104ZM17.6714 17.24C17.2234 17.24 16.8474 17.088 16.5434 16.784C16.2554 16.464 16.1114 16.088 16.1114 15.656C16.1114 15.208 16.2554 14.84 16.5434 14.552C16.8474 14.248 17.2234 14.096 17.6714 14.096C18.1194 14.096 18.4874 14.248 18.7754 14.552C19.0794 14.84 19.2314 15.208 19.2314 15.656C19.2314 16.088 19.0794 16.464 18.7754 16.784C18.4874 17.088 18.1194 17.24 17.6714 17.24ZM28.4161 17.24C27.1681 17.24 26.0241 16.888 24.9841 16.184C23.9601 15.48 23.1441 14.488 22.5361 13.208C21.9281 11.912 21.6241 10.392 21.6241 8.648C21.6241 6.904 21.9201 5.392 22.5121 4.112C23.1201 2.832 23.9361 1.848 24.9601 1.16C25.9841 0.455999 27.1121 0.103999 28.3441 0.103999C29.6081 0.103999 30.7521 0.455999 31.7761 1.16C32.8001 1.848 33.6081 2.832 34.2001 4.112C34.8081 5.392 35.1121 6.912 35.1121 8.672C35.1121 10.416 34.8081 11.936 34.2001 13.232C33.6081 14.512 32.8001 15.504 31.7761 16.208C30.7681 16.896 29.6481 17.24 28.4161 17.24ZM28.3681 15.104C29.2481 15.104 30.0161 14.864 30.6721 14.384C31.3441 13.888 31.8721 13.16 32.2561 12.2C32.6401 11.24 32.8321 10.056 32.8321 8.648C32.8321 7.24 32.6401 6.064 32.2561 5.12C31.8721 4.16 31.3441 3.44 30.6721 2.96C30.0001 2.464 29.2241 2.216 28.3441 2.216C27.4801 2.216 26.7121 2.464 26.0401 2.96C25.3681 3.44 24.8401 4.16 24.4561 5.12C24.0881 6.064 23.9041 7.24 23.9041 8.648C23.9041 10.056 24.0881 11.24 24.4561 12.2C24.8401 13.16 25.3681 13.888 26.0401 14.384C26.7121 14.864 27.4881 15.104 28.3681 15.104ZM42.8461 17.24C41.7421 17.24 40.7661 17.032 39.9181 16.616C39.0861 16.2 38.4381 15.624 37.9741 14.888C37.5101 14.152 37.2781 13.32 37.2781 12.392C37.2781 11.64 37.4221 10.952 37.7101 10.328C37.9981 9.704 38.4221 9.176 38.9821 8.744C39.5421 8.296 40.1981 7.976 40.9501 7.784L41.0221 8.432C40.3821 8.256 39.8381 7.976 39.3901 7.592C38.9421 7.192 38.5981 6.728 38.3581 6.2C38.1341 5.656 38.0221 5.08 38.0221 4.472C38.0221 3.608 38.2301 2.848 38.6461 2.192C39.0621 1.536 39.6301 1.024 40.3501 0.655999C41.0861 0.271999 41.9181 0.079999 42.8461 0.079999C43.7901 0.079999 44.6221 0.271999 45.3421 0.655999C46.0621 1.024 46.6301 1.536 47.0461 2.192C47.4621 2.848 47.6701 3.608 47.6701 4.472C47.6701 5.08 47.5501 5.656 47.3101 6.2C47.0861 6.728 46.7501 7.192 46.3021 7.592C45.8701 7.976 45.3341 8.256 44.6941 8.432L44.7421 7.784C45.5101 7.976 46.1661 8.296 46.7101 8.744C47.2701 9.176 47.6941 9.704 47.9821 10.328C48.2861 10.952 48.4381 11.64 48.4381 12.392C48.4381 13.32 48.2061 14.152 47.7421 14.888C47.2781 15.624 46.6221 16.2 45.7741 16.616C44.9421 17.032 43.9661 17.24 42.8461 17.24ZM42.8461 15.2C43.5181 15.2 44.1021 15.072 44.5981 14.816C45.1101 14.544 45.5101 14.176 45.7981 13.712C46.1021 13.248 46.2541 12.712 46.2541 12.104C46.2541 11.512 46.1021 10.984 45.7981 10.52C45.5101 10.056 45.1101 9.696 44.5981 9.44C44.1021 9.168 43.5181 9.032 42.8461 9.032C42.1901 9.032 41.6061 9.168 41.0941 9.44C40.5821 9.696 40.1741 10.056 39.8701 10.52C39.5821 10.984 39.4381 11.512 39.4381 12.104C39.4381 12.712 39.5821 13.248 39.8701 13.712C40.1741 14.176 40.5821 14.544 41.0941 14.816C41.6061 15.072 42.1901 15.2 42.8461 15.2ZM42.8461 7.28C43.6461 7.28 44.3021 7.032 44.8141 6.536C45.3261 6.04 45.5821 5.4 45.5821 4.616C45.5821 3.848 45.3261 3.224 44.8141 2.744C44.3021 2.248 43.6461 2 42.8461 2C42.0621 2 41.4141 2.248 40.9021 2.744C40.3901 3.224 40.1341 3.848 40.1341 4.616C40.1341 5.4 40.3901 6.04 40.9021 6.536C41.4141 7.032 42.0621 7.28 42.8461 7.28ZM56.4016 17V0.344H58.6576V17H56.4016ZM57.9376 17V14.936H67.4896V17H57.9376ZM57.9376 9.464V7.496H66.6976V9.464H57.9376ZM57.9376 2.408V0.344H67.3696V2.408H57.9376ZM74.341 17V0.823999H76.597V17H74.341ZM68.677 2.408V0.344H82.237V2.408H68.677ZM84.925 17V0.344H87.181V17H84.925ZM95.677 17V0.344H97.933V17H95.677ZM86.461 9.416V7.352H96.229V9.416H86.461Z" fill="white"/>
-                                    </svg>
-                                    
-                                </span></button>
+                           
     
     
                         </div>
@@ -1009,7 +1004,9 @@ You had big plans and goals, but all those lies shattered now. These days, you k
   const dec = document.querySelector(".counter--arrow-dec > span");
   const timer = document.querySelector(".counter");
   const output = document.querySelector(".counter--output");
+  const outpute = document.querySelector(".counter--outpute");
   const singleStep = "1";
+  const singleStepe = singleStep*0.08+" ETH ";
   const medStep = "5";
   const lgStep = "25";
   const largeInt = "500";
@@ -1020,7 +1017,7 @@ You had big plans and goals, but all those lies shattered now. These days, you k
   let intTime = largeInt;
 
   output.setAttribute("value", singleStep); // Initialize input value
-
+  outpute.setAttribute("value", singleStepe);
   timer.addEventListener("mousedown", e => {
     // Start timer to record length of mousedown event
     const startTime = new Date().getTime();
@@ -1057,6 +1054,9 @@ You had big plans and goals, but all those lies shattered now. These days, you k
           output.stepUp(step);
           output.setAttribute('value', output.value);
           output.setAttribute('step', step);
+          const vv = $(".counter--output").val();
+        $(".counter--outpute").val(vv*0.08 + " ETH ");
+          exit;
         }
 
         if (dec.parentElement.contains(e.target)) {
@@ -1064,6 +1064,17 @@ You had big plans and goals, but all those lies shattered now. These days, you k
           output.stepDown(step);
           output.setAttribute('value', output.value);
           output.setAttribute('step', step);
+          const vvvs = $(".counter--output").val();
+          if (vvvs<=0) {
+        const vvvs = $(".counter--output").val(0);
+        $(".counter--outpute").val(0 + " ETH ");
+        }else{
+          const vvv = $(".counter--outpute").val();
+          let num = parseFloat(vvv).toFixed(2) - parseFloat(0.08).toFixed(2);
+         let text=num.toString();
+          let result = text.slice(0, 4);
+          $(".counter--outpute").val(result+ " ETH ");}
+          exit;
         }
 
       // Call recursively
