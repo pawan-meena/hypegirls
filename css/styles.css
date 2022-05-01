@@ -2436,3 +2436,9 @@ font-weight: 900;}
     display: block;
     position: absolute;
 }
+.svg-about{
+	text-align: center;
+    width: 100%;
+    position: absolute;
+    padding-top: 2%;
+}
