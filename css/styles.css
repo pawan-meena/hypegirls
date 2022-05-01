@@ -286,10 +286,9 @@ a:hover {
 .form-control-select {
 	display: block; /* needed for proper display of the label in Firefox, IE, Edge */
 	width: 100%;
-	padding-top: 1.125rem;
-	padding-bottom: 0.125rem;
+	height: 4rem;
 	padding-left: 1.5rem;
-	border: 0px solid #cbcbd1;
+	border: 1px solid #ffffff;
 	border-radius: 16px;
 	background: #932276;
 
@@ -344,7 +343,7 @@ select {
 .form-control-input:hover,
 .form-control-select:hover,
 .form-control-textarea:hover {
-	border: 1px solid #a1a1a1;
+	border: 2px solid #ffffff;
 }
 
 .checkbox {
@@ -2395,4 +2394,33 @@ html {overflow-x: hidden;}
 		
 		padding: 0rem;
 	}
+}input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} .arrow-btn{
+	outline: 0px !important;
+    border: 0px !important;
+    background: none;
+}
+.counter--arrow-inc{
+	position: absolute;
+	top: 36px;
+	right: 20px;
+}
+.counter--arrow-dec{
+	position: absolute;
+	bottom: 8px;
+	right: 20px;
+} .counter--output{font-size: 1.1rem;
+font-family: 'Open Sans';
+font-weight: 900;}
+.raised-text{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}.raised-eth{
+	position: absolute;
+    bottom: 14px;
+    left: 2px;
 }
