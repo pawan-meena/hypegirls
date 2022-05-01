@@ -2423,4 +2423,13 @@ font-weight: 900;}
 	position: absolute;
     bottom: 14px;
     left: 2px;
+}.rdglowr{
+	right: 0px;
+    display: block;
+    position: absolute;
+}
+.rdglowl{
+	left: 0px;
+    display: block;
+    position: absolute;
 }
