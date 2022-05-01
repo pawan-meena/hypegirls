@@ -1811,8 +1811,9 @@ opacity: .8;
 
 		 .about-img{
 			/* height: 768px; */
-            overflow: hidden;
-            background:url('../images/bgimg/bg3.jpg') center center no-repeat;
+            overflow: hidden;   
+			background: -webkit-linear-gradient(180deg, #1e011a 12%, #BB0170 50%,#761292 90%);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(180deg, #1e011a 12%, #BB0170 50%,#761292 90%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 			background-size:     cover;                      /* <------ */
 			background-repeat:   no-repeat;
 			background-position: center center;
@@ -1838,7 +1839,9 @@ padding: 3rem 3rem 1rem 3rem;
 		 }.Specification{
 			/* height: 768px; */
             overflow: hidden;
-            background:url('../images/bgimg/bg4.jpg') center center no-repeat;
+			background: -webkit-linear-gradient(180deg, #761291 17%, #1e0118  91%);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(180deg, #761291 17%, #1e0118  91%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			
 			background-size:     cover;                      /* <------ */
 			background-repeat:   no-repeat;
 			background-position: center center;
@@ -1870,7 +1873,7 @@ padding: 3rem 3rem 1rem 3rem;
 		.noname{
 			/* height: 768px; */
             overflow: hidden;
-            background:url('../images/bgimg/bg5.jpg') center center no-repeat;
+            background:#1e0118;
 			background-size:     cover;                      /* <------ */
 			background-repeat:   no-repeat;
 			background-position: center center;
@@ -2406,7 +2409,11 @@ font-weight: 900;}
 .svg-about{
 	overflow-x: hidden  !important;
 	text-align: center;
-    width:fit-content;
+    width:94%;
     position: absolute;
     padding-top: 2%;
+}.svg-about-r{opacity: .2;
+    position: absolute;
+    left: 0px;
+
 }
