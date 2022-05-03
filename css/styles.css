@@ -2584,5 +2584,31 @@ font-weight: 900;}
 		padding-left: 2rem;
 	}.join .container{
 		max-width: 1468px;
+	}.slider-container  .slider {
+		display: block;
+		width: 40%;
+		height: 100%;
+		margin: 0 auto;
+		position: relative;
+		text-align: center;
+		line-height: 270px;
+		color: white;
+	}.slider-container .slider .slide {
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		position: absolute;
+		left: 50%;
+		top: 60%;
 	}
+}/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
